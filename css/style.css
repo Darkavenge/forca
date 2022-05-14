@@ -3,6 +3,31 @@
     font-size: 2em;
 }
 
+.box, .box2{
+    display: inline-block;
+    width: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+}
+
+.box3{
+    display: inline-block;
+    width: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+
+.box:hover {
+    background-color: white;
+    color: black;
+    cursor: grab;
+}
+
 button{
     background-color: red;
     padding: 10px;

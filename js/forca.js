@@ -1,7 +1,8 @@
 const app = function () {
 
-    const jogoForca = {};
+    const jogoForca = { cur: '', solucao: '' };
     const partida = {};
+    const palavras = ['javascript', 'html', 'css'];
 
 
     function init() {
@@ -21,6 +22,22 @@ const app = function () {
 
     function iniciar() {
         partida.btn.style.display = 'none';
+        if (palavras.length > 0) {
+            palavras.sort(() => {
+                return .5 - Math.random();
+            })
+            jogoForca.cur = palavras.shift();
+            partida.solucao = jogoForca.cur.split('');
+            partida.ponto.style.display = 'block';
+            partida.letras.style.display = 'block';
+            partida.segredo.textContent = jogoForca.cur;
+            placar();
+        }
+    }
+
+    function placar() {
+
+        console.log(jogoForca.solucao);
 
     }
 

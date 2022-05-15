@@ -2,7 +2,8 @@ const app = function () {
 
     const jogoForca = { cur: '', solucao: '', correto: 0, errado: 0, total: 0 };
     const partida = {};
-    const palavras = ['cadeado', 'porta', 'janela', 'viola', 'mesa', 'cadeira', 'escudo', 'caneta', 'roupa', 'travesseiro', 'comoda', 'panela', 'caneca', 'guarda roupa', 'porta lapis', 'mala'];
+    const palavras = ['casa', 'rua', 'css'];
+    //const palavras = ['cadeado', 'porta', 'janela', 'viola', 'mesa', 'cadeira', 'escudo', 'caneta', 'roupa', 'travesseiro', 'comoda', 'panela', 'caneca', 'guarda roupa', 'porta lapis', 'mala'];
 
     function init() {
 

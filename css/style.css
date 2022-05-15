@@ -3,6 +3,11 @@
     font-size: 2em;
 }
 
+canvas {
+    background-color: aqua;
+    margin-left: 200px;
+}
+
 .box, .box2{
     display: inline-block;
     width: 30px;
@@ -16,8 +21,6 @@
 .box3{
     display: inline-block;
     width: 40px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     font-size: 1.5em;
 }
 
